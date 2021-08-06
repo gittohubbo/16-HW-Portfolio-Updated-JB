@@ -1,0 +1,30 @@
+{
+	"projects": [
+		{
+			"id": "10",
+			"image": "/src/images/projects/weather_app.png",
+			"demo": "https://gittohubbo.github.io/06HW-Weather-Dashboard-JB/",
+			"title": "Weather App using third-party API's",
+			"shortDesc": "A Weather App using third-party API's"
+		},
+		{
+			"id": "11",
+			"image": "/src/images/projects/scheduler.png",
+			"demo": "https://gittohubbo.github.io/05-HW-Scheduler-Jorge/",
+			"title": "Work Day Scheduler",
+			"shortDesc": "a Work day scheduler using time functions."
+		},
+		{
+			"id": "12",
+			"image": "/src/images/projects/pet_shelter.png",
+			"title": "Pet Shelter Website",
+			"shortDesc": "A Pet Shelter website"
+		},
+		{
+			"id": "13",
+			"image": "/src/images/projects/password_generator.png",
+			"title": "A Password Generator App",
+			"shortDesc": "A Password Generator App"
+		}
+	]
+}

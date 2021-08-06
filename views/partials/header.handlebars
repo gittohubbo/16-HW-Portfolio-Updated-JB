@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{{title}} | Jorge's Portfolio</title>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+    integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/src/css/main.min.css">
+
+<style>
+    .temp-message {
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        left: 0;
+    }
+</style>
+
+<body>
+
+    <header class="nav-down">
+        <!-- nav -->
+        <nav class="navbar navbar-fixed-top mb0">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <h1 class="mzero logo-name"><a class="navbar-brand" href="/">Jorge</a></h1>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="{{#if active_about}}active{{/if}}" href="/about">about</a></li>
+                        <li><a class="{{#if active_projects}}active{{/if}}" href="/projects">work</a></li>
+                        <li><a class="{{#if active_contact}}active{{/if}}" href="/contact">contact</a></li>
+                        <li><a class="{{#if active_resume}}active{{/if}}" href="/resume">resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="buffer"></div>
+
+    <div class="container-fluid">
+        <div class="row">

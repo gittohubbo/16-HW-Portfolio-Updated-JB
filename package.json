@@ -1,0 +1,43 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Jorge's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gittohubbo/16-HW-Portfolio-Updated-JB"
+  },
+  "keywords": [
+    "developer",
+    "front-end",
+    "full-stack",
+    "JavaScript",
+    "Node",
+    "Express"
+  ],
+  "author": "Jorge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gittohubbo/16-HW-Portfolio-Updated-JB"
+  },
+  "homepage": "https://github.com/gittohubbo/16-HW-Portfolio-Updated-JB/blob/main/README.md",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-express": "^0.3.5",
+    "gulp-live-server": "0.0.31",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-css-comments": "^2.0.0",
+    "node-normalize-scss": "^3.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0"
+  }
+}
