@@ -8,7 +8,7 @@ If you are opting out of career services, this is _still a required assignment_.
 
 - Updated portfolio featuring at least 3 examples of student work from either deployed projects of homeworks
 
-![ Screenshot of Portfolio website deployed locally]("src/images/Chico. png)
+![ Screenshot of Portfolio website deployed locally](/src/images/Chico.png "Updated screenshot of Portfolio website deployed locally")
 
 - Update GitHub profile with pinned repositories featuring at least 3 examples of student work from either deployed projects of homeworks
 
